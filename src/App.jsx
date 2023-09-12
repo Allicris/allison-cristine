@@ -1,12 +1,17 @@
+import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
-import Card from './components/Card';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App () {
   return (
     <>
     <Header />
-    {/* The About Me is displayed by default */}
-    <Card text={'About Me'}/>
+    <Nav />
+    <main>
+    <Outlet />
+    </main>
+    <Footer />
     </>
   );
 }
