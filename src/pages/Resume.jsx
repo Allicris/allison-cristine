@@ -1,5 +1,8 @@
 export default function Resume() {
   return (
-    <p>A downloadable resume will be displayed here</p>
+    <div>
+      <a href="assets/resume/resume.pdf"> Download Resume
+      </a>
+    </div>
   );
 }
