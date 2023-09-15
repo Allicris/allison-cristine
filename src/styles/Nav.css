@@ -1,0 +1,21 @@
+.nav-bar {
+  font-family: Poppins, sans-serif;
+  background-image: linear-gradient(lavender, rgb(237, 202, 238)) ;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 15px;
+}
+
+.nav-bar a {
+  color: rgb(226, 121, 234);
+  text-decoration: none;
+}
+
+.nav-bar a:hover{
+  color: white;
+}

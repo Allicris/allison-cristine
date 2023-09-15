@@ -1,5 +1,3 @@
-// import { useState } from 'react';
-
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
@@ -32,51 +30,3 @@ export default function Contact() {
     </form>
   );
 };
-
-// export default function Contact() {
-//   const [firstName, setFirstName] = useState('');
-//   const [lastName, setLastName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [message, setMessage] = useState('');
-
-//   const handleFormSubmit = (e) => {
-//     e.preventDefault();
-
-//     alert(`Thank you ${firstName} ${lastName}`);
-//     setFirstName('');
-//     setLastName('');
-//     setEmail('');
-//     setMessage('');
-//   };
-  
-//   return (
-//     <div >
-//       <h1>
-//         Feel Free to contact me!
-//       </h1>
-//       <form>
-//         <input 
-//         value={firstName}
-//         name="firstName"
-//         onChange={(e) => setFirstName(e.target.value)}
-//         type="text"
-//         placeholder="Name"
-//         />
-//         <input 
-//         value={email}
-//         name="email"
-//         onChange={(e) => setEmail(e.target.value)}
-//         type="text"
-//         placeholder="Email"
-//         />
-//         <input 
-//         value={message}
-//         name="message"
-//         onChange={(e) => setMessage(e.target.value)}
-//         type="text"
-//         placeholder="Message"
-//         />
-//       </form>
-//     </div>
-//   );
-// }

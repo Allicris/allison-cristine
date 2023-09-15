@@ -1,3 +1,5 @@
+import '../styles/Header.css';
+
 //The header is the parent class 
 function Header() {
   return (
@@ -5,7 +7,7 @@ function Header() {
       <h1>
         Allison Serrano
       </h1>
-      <h2>
+      <h2 className='tab'> 
         Aspiring Programmer
       </h2>
     </header>

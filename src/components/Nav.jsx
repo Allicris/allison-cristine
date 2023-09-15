@@ -1,3 +1,4 @@
+import '../styles/Nav.css';
 import { Link, useLocation } from 'react-router-dom';
 
 //Importing Link and useLocation to be able to create routes.
@@ -7,7 +8,7 @@ function NavTabs() {
   const currentPage = useLocation().pathname;
 
   return(
-    <ul>
+    <ul className='nav-bar'>
       {/* <li>
         <Link
         to='/'
