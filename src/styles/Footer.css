@@ -1,0 +1,26 @@
+@media (max-width: 9000px) {
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 700px;
+  margin-right: 700px;
+  list-style: none;
+}
+}
+
+.icons img {
+  max-width: 30%;
+}
+
+.icons img:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+

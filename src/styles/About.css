@@ -1,13 +1,20 @@
+
 .about-me {
+  background-color: rgb(221, 227, 249);
   font-family: Poppins, sans-serif;
   display: flex;
   margin: 20px;
-  padding: 10px;
+  padding: 20px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.about-me img {
-max-width: 35%;
-max-height: 35%;
+ img {
+max-width: 20%;
+max-height: 20%;
+padding: 20px;
 }
+
+  .about-me p {
+   padding: 40px;
+  }

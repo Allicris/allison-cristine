@@ -2,6 +2,7 @@ import ReactDOM from 'react-dom/client';
 //Setting up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+
 //Importing all the necessary content to navigate to
 import App from './App';
 import About from './pages/About';

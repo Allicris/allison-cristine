@@ -1,0 +1,37 @@
+.contact {
+  margin: 20px;
+  padding: 50px;
+  padding-bottom: 90px;
+  background-color: rgb(236, 223, 232);
+  font-family: Poppins, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.form {
+  display: grid;
+  row-gap: 10px;
+  min-width: 18%;
+}
+
+.form input {
+  font-family: Poppins, sans-serif;
+  border-radius: 5px;
+  padding: 8px;
+  font-weight: 700;
+}
+
+.form input:hover {
+  border-color: hotpink;
+}
+
+.form textarea {
+  border-radius: 5px;
+  min-height: 120px;
+}
+
+.send:hover {
+cursor: pointer;
+background-color: rgb(236, 166, 203);
+}

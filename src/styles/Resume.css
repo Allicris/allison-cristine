@@ -1,0 +1,36 @@
+.resume {
+ margin: 20px;
+ padding: 50px;
+  padding-bottom: 30px;
+  background-color: rgb(182, 221, 199);
+  font-family: Poppins, sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.resume p {
+  padding: 70px;
+}
+
+button {
+  background-color: rgb(221, 238, 228);
+  font-family: Poppins, sans-serif;
+  border-radius: 20px;
+  padding: 15px;
+  border-color: rgb(34, 132, 139);
+}
+
+button a {
+  text-decoration: none;
+  color: rgb(17, 117, 102);
+}
+
+button a:hover {
+  text-decoration: none;
+  color: rgb(229, 93, 116);
+}
+
+.languages {
+  margin: 50px;
+  margin-top: 60px;
+}

@@ -1,0 +1,44 @@
+.mywork {
+  background-color: rgb(188, 223, 245);
+  font-family: Poppins, sans-serif;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 125px;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(104, 125, 145);
+  font-weight: 500;
+  text-align: center;
+}
+
+.mywork h1 {
+  color:rgb(255, 255, 255);
+  padding: 40px;
+  padding-bottom: 70px;
+}
+
+.projects {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 150px;
+  row-gap: 20px;
+}
+
+.projects div {
+  margin-bottom: -350px;
+}
+
+.projects div a {
+  text-decoration: none;
+  color: rgb(104, 125, 145);
+}
+
+.projects div a:hover {
+  text-decoration: none;
+  color: rgb(253, 253, 253);
+}
+
+.images {
+  max-width: 500%;
+}
