@@ -4,11 +4,11 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 
 //Importing all the necessary content to navigate to
-import App from './App';
-import About from './pages/About';
-import Portfolio from './pages/Portfolio';
-import Resume from './pages/Resume';
-import Contact from './pages/Contact';
+import App from './App.jsx';
+import About from './pages/About.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Resume from './pages/Resume.jsx';
+import Contact from './pages/Contact.jsx';
 
 //This will be defining the routes and which components will be responding to 
 // the defined URL.
@@ -27,8 +27,8 @@ const router = createBrowserRouter([
         element: <About />,
       },
       {
-      path: '/Portfolio',
-      element: <Portfolio />,
+        path: '/Portfolio',
+        element: <Portfolio />,
       },
       {
         path: '/Resume',
@@ -43,5 +43,5 @@ const router = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-<RouterProvider router={router} />
+  <RouterProvider router={router} />
 );
