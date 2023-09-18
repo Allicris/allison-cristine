@@ -5,7 +5,6 @@
   background-color: rgb(236, 223, 232);
   font-family: Poppins, sans-serif;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
 }
 
@@ -34,4 +33,12 @@
 .send:hover {
 cursor: pointer;
 background-color: rgb(236, 166, 203);
+}
+
+.contact-text {
+  margin-left: 200px;
+}
+
+.contact-text h2 {
+  color: rgb(224, 102, 167);
 }

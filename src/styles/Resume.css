@@ -1,6 +1,7 @@
 .resume {
  margin: 20px;
  padding: 50px;
+ padding-top: 30px;
   padding-bottom: 30px;
   background-color: rgb(182, 221, 199);
   font-family: Poppins, sans-serif;
@@ -9,7 +10,7 @@
 }
 
 .resume p {
-  padding: 70px;
+  padding: 10px;
 }
 
 button {

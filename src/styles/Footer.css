@@ -1,18 +1,14 @@
-@media (max-width: 9000px) {
 .icons {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  margin-left: 700px;
-  margin-right: 700px;
+  justify-content: space-evenly;
+  margin-left: 600px;
+  margin-right: 600px;
   list-style: none;
 }
-}
+
 
 .icons img {
-  max-width: 30%;
+  max-width: 170%;
 }
 
 .icons img:hover {
