@@ -9,7 +9,7 @@ import About from './pages/About.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 import Resume from './pages/Resume.jsx';
 import Contact from './pages/Contact.jsx';
-
+import Error from './pages/Error.jsx';
 //This will be defining the routes and which components will be responding to 
 // the defined URL.
 const router = createBrowserRouter([
