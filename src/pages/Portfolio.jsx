@@ -1,4 +1,10 @@
 import '../styles/Portfolio.css';
+import weather from '../../public/images/weather.png';
+import newspaper from '../../public/images/newspaper.png';
+import adopt from '../../public/images/adopt.png';
+import portfolio from '../../public/images/portfolio.png';
+import quiz from '../../public/images/quiz.png';
+import workday from '../../public/images/workday.png';
 
 export default function Portfolio() {
   return (
@@ -10,7 +16,7 @@ export default function Portfolio() {
           <h2>
             Weather App
           </h2>
-          <img className='images' src='/public/images/weather.png'></img>
+          <img className='images' src={weather}></img>
           <br></br>
           <a href='https://github.com/Allicris/new-weather-app'>Github link</a>
           <br></br>
@@ -20,7 +26,7 @@ export default function Portfolio() {
           <h2>
             Digital Newspaper Website
           </h2>
-          <img className='images' src='/public/images/newspaper.png'></img>
+          <img className='images' src={newspaper}></img>
           <br></br>
           <a href='https://github.com/Allicris/digital-newspaper'>Github link</a>
           <br></br>
@@ -30,7 +36,7 @@ export default function Portfolio() {
           <h2>
             Adopt A Pet Website
           </h2>
-          <img className='images' src='/public/images/adopt.png'></img>
+          <img className='images' src={adopt}></img>
           <br></br>
           <a href='https://github.com/Allicris/project-two'>Github link</a>
           <br></br>
@@ -40,7 +46,7 @@ export default function Portfolio() {
           <h2>
             Static Portfolio
           </h2>
-          <img className='images' src='/public/images/portfolio.png'></img>
+          <img className='images' src={portfolio}></img>
           <br></br>
           <a href='https://github.com/Allicris/allisons-portfilio'>Github link</a>
           <br></br>
@@ -50,7 +56,7 @@ export default function Portfolio() {
           <h2>
             Javascript Timed Quiz
           </h2>
-          <img className='images' src='/public/images/quiz.png'></img>
+          <img className='images' src={quiz}></img>
           <br></br>
           <a href='https://github.com/Allicris/programmer-quiz'>Github link</a>
           <br></br>
@@ -60,7 +66,7 @@ export default function Portfolio() {
           <h2>
             Work Day Calendar
           </h2>
-          <img className='images' src='/public/images/workday.png'></img>
+          <img className='images' src={workday}></img>
           <br></br>
           <a href='https://github.com/Allicris/work-day-calendar'>Github link</a>
           <br></br>
