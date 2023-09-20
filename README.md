@@ -71,7 +71,7 @@ One of my success was finding out about EmailJS and then implementing it in my c
 
 ## Links
 Github repository: https://github.com/Allicris/allison-cristine
-Deployed Link: 
+Deployed Link: https://allisoncristine.netlify.app/
 
 ## Future Deployment
 I would like to use media queries for this website. I was having a hard time trying to implement that for my footer icons. 
@@ -81,6 +81,7 @@ I would like to use media queries for this website. I was having a hard time try
 - React Dom
 - React Router Dom
 - EmailJS
+- Netlify
 
 ## Author
 Allison C. Serrano
