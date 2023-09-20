@@ -1,4 +1,14 @@
 import '../styles/Resume.css';
+import html from '../../public/images/html.png';
+import css from '../../public/images/css.png';
+import javascript from '../../public/images/javascript.png';
+import jquery from '../../public/images/jquery.png';
+import mysql from '../../public/images/mysql.png';
+import git from '../../public/images/git.png';
+import mongo from '../../public/images/mongo.png';
+import react from '../../public/images/react.png';
+import npm from '../../public/images/npm.png';
+import resume from '../../public/resume/resume.png';
 
 export default function Resume() {
   return (
@@ -8,18 +18,18 @@ export default function Resume() {
       <p>My overall confidence has grown since starting Real Estate. The experience has exposed me to thinking more logically, thinking of what order each situation can go in and following the corresponding steps.</p>
       <p>Review my experience below.</p>
       <button>
-        <a href="assets/resume/resume.pdf"> View My Resume</a>
+        <a href={resume}> View My Resume</a>
       </button>
       <div className='languages'>
-      <img src='/public/images/html.png'></img>
-      <img src='/public/images/css.png'></img>
-      <img src='/public/images/javascript.png'></img>
-      <img src='/public/images/jquery.png'></img>
-      <img src='/public/images/mysql.png'></img>
-      <img src='/public/images/git.png'></img>
-      <img src='/public/images/mongo.png'></img>
-      <img src='/public/images/react.png'></img>
-      <img src='/public/images/npm.png'></img>
+      <img src={html}></img>
+      <img src={css}></img>
+      <img src={javascript}></img>
+      <img src={jquery}></img>
+      <img src={mysql}></img>
+      <img src={git}></img>
+      <img src={mongo}></img>
+      <img src={react}></img>
+      <img src={npm}></img>
       </div>
       </div>
   );

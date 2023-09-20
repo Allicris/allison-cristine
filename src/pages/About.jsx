@@ -1,9 +1,10 @@
 import '../styles/About.css';
+import selfPortrait from '../../public/images/self-portrait.png';
 
 export default function About() {
   return (
     <div className="about-me">
-      <img src="/public/images/self-portrait.png"></img>
+      <img src={selfPortrait}></img>
       <div>
         <p>
           My name is Allison Serrano. I am based out of Bergen County, NJ.
