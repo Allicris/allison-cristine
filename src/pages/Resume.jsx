@@ -11,15 +11,15 @@ export default function Resume() {
         <a href="assets/resume/resume.pdf"> View My Resume</a>
       </button>
       <div className='languages'>
-      <img src='../../assets/images/html.png'></img>
-      <img src='../../assets/images/css.png'></img>
-      <img src='../../assets/images/javascript.png'></img>
-      <img src='../../assets/images/jquery.png'></img>
-      <img src='../../assets/images/mysql.png'></img>
-      <img src='../../assets/images/git.png'></img>
-      <img src='../../assets/images/mongo.png'></img>
-      <img src='../../assets/images/react.png'></img>
-      <img src='../../assets/images/npm.png'></img>
+      <img src='/public/images/html.png'></img>
+      <img src='/public/images/css.png'></img>
+      <img src='/public/images/javascript.png'></img>
+      <img src='/public/images/jquery.png'></img>
+      <img src='/public/images/mysql.png'></img>
+      <img src='/public/images/git.png'></img>
+      <img src='/public/images/mongo.png'></img>
+      <img src='/public/images/react.png'></img>
+      <img src='/public/images/npm.png'></img>
       </div>
       </div>
   );
