@@ -8,7 +8,7 @@ import git from '../../public/images/git.png';
 import mongo from '../../public/images/mongo.png';
 import react from '../../public/images/react.png';
 import npm from '../../public/images/npm.png';
-import resume from '../../public/resume/resume.png';
+import resume from '../../public/resume/resume.pdf';
 
 export default function Resume() {
   return (
