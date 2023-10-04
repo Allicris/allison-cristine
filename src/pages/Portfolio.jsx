@@ -5,6 +5,7 @@ import adopt from '../../public/images/adopt.png';
 import portfolio from '../../public/images/portfolio.png';
 import quiz from '../../public/images/quiz.png';
 import workday from '../../public/images/workday.png';
+import nailbookings from '../../public/images/nailbookings.png';
 
 export default function Portfolio() {
   return (
@@ -71,6 +72,16 @@ export default function Portfolio() {
           <a href='https://github.com/Allicris/work-day-calendar'>Github link</a>
           <br></br>
           <a href='https://allicris.github.io/work-day-calendar/'>Website link</a>
+        </div>
+        <div>
+          <h2>
+            Nail Booking Site
+          </h2>
+          <img className='images' src={nailbookings}></img>
+          <br></br>
+          <a href='https://github.com/Allicris/nail-booking-site'>Github link</a>
+          <br></br>
+          <a href='https://nail-booking-site-285746c99724.herokuapp.com'>Heroku link</a>
         </div>
       </section>
     </div>
