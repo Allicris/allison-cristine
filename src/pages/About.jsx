@@ -7,12 +7,16 @@ export default function About() {
       <img src={selfPortrait}></img>
       <div>
         <p>
-          My name is Allison Serrano. I am based out of Bergen County, NJ.
+          Welcome to my Porfolio site! 
           <br></br>
-           Learning how to code has been something that was in the back of my mind for a long time. 
+          <br></br>
+          My name is Allison Serrano. I'm based out of Bergen County, NJ. 
            <br></br>
-           I'm glad that I finally have been blessed enough to learn this beautiful subject.
-        </p>
+           <br></br>
+          I'm a recent graduate of Rutgers Full Stack Coding Bootcamp, web development is something that I've always been interested in and I'm so happy I took the leap to pursue it. 
+          The bootcamp taught me a variety of technologies and has challenged me to consistently think outside the box and push to find a solution. The mental growth I've experienced through coding 
+          is something that I'm excited to experience more of.
+          </p>
       </div>
     </div>
   );
