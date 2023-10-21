@@ -2,43 +2,62 @@
   background-color: rgb(188, 223, 245);
   font-family: Poppins, sans-serif;
   display: block;
-  margin: 20px;
-  padding: 20px;
-  padding-bottom: 125px;
-  align-items: center;
-  justify-content: space-between;
+  margin: 3%;
+  padding: 3%;
+  /* align-items: center;
+  justify-content: space-between; */
   color: rgb(41, 121, 196);
   font-weight: 500;
   text-align: center;
 }
 
 .mywork h1 {
-  color:rgb(255, 255, 255);
-  padding: 40px;
-  padding-bottom: 70px;
+  color: rgb(255, 255, 255);
+  padding: 5%;
+  padding-bottom: 7%;
 }
 
 .projects {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 150px;
-  row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  column-gap: 10%;
 }
 
-.projects div {
-  margin-bottom: -350px;
+.project {
+  text-align: center;
 }
 
-.projects div a {
+.images {
+  max-width: 155%;
+  max-height: auto;
+  margin: auto;
+  padding: 10%;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.project-links a {
   text-decoration: none;
   color: rgb(104, 125, 145);
 }
 
-.projects div a:hover {
+.project-links a:hover {
   text-decoration: none;
   color: rgb(253, 253, 253);
 }
 
-.images {
-  max-width: 500%;
+.description {
+  padding-top: 15px;
+  padding-left: 30px;
+  text-align: left;
+  color:rgb(57, 68, 144)
+}
+
+em {
+  color:rgb(38, 38, 39);
 }
