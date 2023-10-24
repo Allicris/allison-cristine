@@ -30,16 +30,8 @@ export default function Contact() {
   };
 
   return (
+    
     <div className='contact'>
-      <form className='form' ref={form} onSubmit={sendEmail}>
-        <label>Full Name:</label>
-        <input id='name' type="text" name="user_name" />
-        <label>Email:</label>
-        <input id='email' type="email" name="user_email" />
-        <label>Message:</label>
-        <textarea id='message' name="message" />
-        <input className='send' type="submit" value="Send" />
-      </form>
       <div className='contact-text'>
       <h2>
         Lets Connect!
@@ -49,6 +41,24 @@ export default function Contact() {
     <br></br>
     <p>I'm also currently looking to work and open to work! Contact me if you have an open position you think I would be qualified for.</p>
     </div>
+      <form className='form' ref={form} onSubmit={sendEmail}>
+        <label>Full Name:</label>
+        <input id='name' type="text" name="user_name" />
+        <label>Email:</label>
+        <input id='email' type="email" name="user_email" />
+        <label>Message:</label>
+        <textarea id='message' name="message" />
+        <input className='send' type="submit" value="Send" />
+      </form>
+      {/* <div className='contact-text'>
+      <h2>
+        Lets Connect!
+      </h2>
+      <br></br>
+      <p>I'm looking to connect with anyone in the tech space. Whether it be a coffee chat, a question or if you're looking to collaborate.</p>
+    <br></br>
+    <p>I'm also currently looking to work and open to work! Contact me if you have an open position you think I would be qualified for.</p>
+    </div> */}
     </div>
   );
 };

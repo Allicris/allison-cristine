@@ -32,6 +32,10 @@ button a:hover {
 }
 
 .languages {
-  margin: 50px;
-  margin-top: 60px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 5%;
+margin: auto;
+max-width: 20%;
 }
