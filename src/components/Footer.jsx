@@ -14,7 +14,7 @@ export default function Footer() {
         <a href='https://www.linkedin.com/feed/'>
           <img src={linkedin}></img>
         </a>
-        <a className='fiverr' href='https://www.fiverr.com/allicris11?up_rollout=true'>
+        <a className='fiverr' href='https://www.fiverr.com/s2/2418c35536'>
           <img src={fiverr}></img>
         </a>
       </div>
