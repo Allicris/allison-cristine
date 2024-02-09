@@ -31,7 +31,7 @@ export default function Contact() {
 
   return (
     
-    <div className='contact'>
+    <div id="contact" className='contact'>
       <div className='contact-text'>
       <h2>
         Lets Connect!
@@ -50,15 +50,6 @@ export default function Contact() {
         <textarea id='message' name="message" />
         <input className='send' type="submit" value="Send" />
       </form>
-      {/* <div className='contact-text'>
-      <h2>
-        Lets Connect!
-      </h2>
-      <br></br>
-      <p>I'm looking to connect with anyone in the tech space. Whether it be a coffee chat, a question or if you're looking to collaborate.</p>
-    <br></br>
-    <p>I'm also currently looking to work and open to work! Contact me if you have an open position you think I would be qualified for.</p>
-    </div> */}
     </div>
   );
 };

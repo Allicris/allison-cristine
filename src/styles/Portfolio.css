@@ -1,40 +1,49 @@
-.mywork {
-  background-color: rgb(188, 223, 245);
-  font-family: Poppins, sans-serif;
-  display: block;
-  margin: 3%;
-  padding: 3%;
-  /* align-items: center;
-  justify-content: space-between; */
-  color: rgb(41, 121, 196);
-  font-weight: 500;
+.mywork h1 {
+  font-family: 'DM Serif Display', 'serif';
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 4%;
+  padding: 5%;
+  padding-bottom: 4%;
   text-align: center;
 }
 
-.mywork h1 {
-  color: rgb(255, 255, 255);
-  padding: 5%;
-  padding-bottom: 7%;
-}
-
-.projects {
+.collaborative-projects, .solo-projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 10%;
 }
 
 .project {
+  font-family: "Noto Serif JP", serif;
+  margin: 5px;
+  max-width: 500px;
   text-align: center;
+  color: white;
+  background-color: #efdbba;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px #efd9c3;
+}
+
+.project h2 {
+  font-family: 'DM Serif Display', 'serif';
+  color: white;
+  font-size: 25px;
+}
+
+em {
+  font-family: 'DM Serif Display', 'serif';
 }
 
 .images {
-  max-width: 95%;
+  max-width: 89%;
   max-height: auto;
   margin: auto;
-  padding: 10%;
+  border-radius: 10px;
 }
 
 .project-links {
+  font-family: 'DM Serif Display', 'serif';
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -43,21 +52,21 @@
 
 .project-links a {
   text-decoration: none;
-  color: rgb(104, 125, 145);
+  color: #688d54;
 }
 
 .project-links a:hover {
   text-decoration: none;
-  color: rgb(253, 253, 253);
+  color: white;
 }
 
 .description {
   padding-top: 15px;
   padding-left: 30px;
   text-align: left;
-  color:rgb(57, 68, 144)
+  color: rgb(128, 8, 34);
 }
 
 em {
-  color:rgb(38, 38, 39);
+  color: #587747;
 }

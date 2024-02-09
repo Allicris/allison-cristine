@@ -1,17 +1,20 @@
-import { Outlet } from 'react-router-dom';
-import Header from './components/Header';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
+import "./App.css";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
+import About from "./pages/About.jsx";
+import Portfolio from "./pages/Portfolio.jsx";
+import Resume from "./pages/Resume.jsx";
+import Contact from "./pages/Contact.jsx";
 
-function App () {
+function App() {
   return (
     <>
-    <Header />
-    <Nav />
-    <main>
-    <Outlet />
-    </main>
-    <Footer />
+      <Nav />
+      <About />
+      <Portfolio />
+      <Resume />
+      <Contact />
+      <Footer />
     </>
   );
 }

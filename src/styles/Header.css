@@ -1,20 +1,25 @@
-.header {
-  font-family: 'Poppins', 'sans-serif';
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding: 10px;
-  font-weight: 300;
-  background-color: lavender;
-  color: rgb(105, 105, 235);
-}
-
-.header h1 {
-  padding-left: 15px;
+.header { 
+  font-family: 'DM Serif Display', 'serif';
+  margin-top: -90px;
+  padding-left: 50px;
+  color: rgb(105, 105, 105);
+  display: block;
+  align-items: center;
+  justify-content: center;
 }
 
 .tab {
-  font-style: italic;
-  display: inline-block;
-    margin-left: 3em;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  transition: transform 700ms ease-out;
+  transform: translateX(-100%);
+}
+
+.tab span {
+  color: #688d54;
+}
+
+.tab.active {
+  transform: translateX(0);
 }

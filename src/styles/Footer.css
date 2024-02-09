@@ -1,31 +1,9 @@
-.icons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  list-style: none;
-}
-
-
-.icons a {
-  max-width: 15%;
-}
-
-.icons img:hover {
-  cursor: pointer;
-}
-
-.github {
-  min-width: 19%;
-}
-
-.fiverr {
-  min-width: 19%;
-}
-
 .footer-text {
   text-align: center;
-  font-family: Poppins, sans-serif;
+  font-family: 'DM Serif Display', sans-serif;
+margin: 15px;
+  margin-top: 30px;
+color: #FDFFAB;
 }
 
 

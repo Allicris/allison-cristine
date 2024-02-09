@@ -1,41 +1,61 @@
 .resume {
- margin: 20px;
- padding: 50px;
- padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: rgb(182, 221, 199);
-  font-family: Poppins, sans-serif;
-  display: block;
+  margin: 20px;
+  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   text-align: center;
 }
 
-.resume p {
-  padding: 10px;
+.portrait {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.portrait img {
+  max-width: 250px;
+  height: 35vh;
+  border-radius: 10px;
+  margin-top: 22px;
+}
+
+.resume-description {
+  display: block;
+  font-size: 18px;
+  color: rgb(137, 52, 52);
+  font-family: "Noto Serif JP", serif;
+}
+
+.resume-description h3 {
+  font-family: 'DM Serif Display', 'serif';
+  color: #fdffab;
+font-size: 20px;
 }
 
 button {
-  background-color: rgb(221, 238, 228);
-  font-family: Poppins, sans-serif;
-  border-radius: 20px;
+  font-family: "DM Serif Display", "serif";
+  font-size: 14px;
+  border-radius: 15px;
   padding: 15px;
-  border-color: rgb(34, 132, 139);
+  background-color: transparent;
+  color: #eee;
+  border: 1.5px solid #ffffff;
+  transition-duration: 375ms;
 }
 
 button a {
   text-decoration: none;
-  color: rgb(17, 117, 102);
+  color: rgb(255, 255, 255);
+  transition-duration: 375ms;
 }
 
-button a:hover {
-  text-decoration: none;
-  color: rgb(229, 93, 116);
+button:hover {
+  cursor: pointer;
+  border-color: rgb(103, 102, 102);
 }
 
-.languages {
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 5%;
-margin: auto;
-max-width: 20%;
+button a:hover{
+  color: rgb(93, 93, 93);
 }
