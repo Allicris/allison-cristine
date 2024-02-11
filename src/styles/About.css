@@ -47,17 +47,18 @@
   border-radius: 5px;
 }
 
-.paragraph-two p span {
+.paragraph-two p a {
   margin: 3px;
   padding: 3px;
   background-color: transparent;
   border: 2px solid rgba(43, 125, 39, 0.72);
   border-radius: 5px;
   color: rgb(255, 255, 255);
+  text-decoration: none;
   transition-duration: 375ms;
 }
 
-.paragraph-two p span:hover {
+.paragraph-two p a:hover {
  cursor: pointer;
  border: 2px solid white;
  background-color: rgba(128, 128, 128, 0.528);

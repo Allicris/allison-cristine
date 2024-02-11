@@ -1,5 +1,5 @@
 import "../styles/Resume.css";
-import resume from "../../public/resume/allison-sw-resume.pdf";
+import resume from "../../public/resume/allison-serrano.pdf";
 import selfPortrait from "../../public/images/portfolio-pic.png";
 
 export default function Resume() {

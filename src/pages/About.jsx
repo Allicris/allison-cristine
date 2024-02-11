@@ -19,7 +19,7 @@ export default function About() {
           Engineering
         </p>
         <p>
-          <span>click here</span>
+          <a href="https://coderalli.hashnode.dev/my-coding-journey">click here</a>
         </p>
       </div>
     </div>
