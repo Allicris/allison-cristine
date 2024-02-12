@@ -9,8 +9,7 @@
 
 .collaborative-projects, .solo-projects {
   display: flex;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 65px;
 } 
 
 .project {
