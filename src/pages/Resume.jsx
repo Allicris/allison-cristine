@@ -11,10 +11,9 @@ export default function Resume() {
       <div className="resume-description">
         <h3>EXPERIENCE</h3>
         <p>
-        My previous experience has helped me succeed in my coding journey. I've
+        My previous experience has led me to where I am today in my coding journey. I've
         been able to apply my organizational and problem solving skills into my
-        assignments and research. With strong background in Administration and Real Estate, I have
-        enjoyed the organizational aspect and my overall confidence has grown since.
+        assignments and research. I plan to utilize the skills I have gained in Administration and Real Estate to become a better web developer.
       </p>
       <button>
         <a href={resume}>View My Resume</a>
