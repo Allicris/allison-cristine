@@ -6,6 +6,7 @@
   position: relative;
   padding: 130px;
   margin: -10px;
+  margin-bottom: 150px;
 }
 
 .about-me::before {

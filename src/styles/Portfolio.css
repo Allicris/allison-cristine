@@ -2,7 +2,7 @@
   font-family: 'DM Serif Display', 'serif';
   font-size: 45px;
   color: rgb(255, 255, 255);
-  margin-top: 15%;
+  margin-top: 7%;
   text-align: center;
   text-shadow: 2px 2px 2px rgb(118, 117, 117);
 }
@@ -15,7 +15,6 @@
 
 .project {
   font-family: "Noto Serif JP", serif;
-  margin: 10px;
   padding: 10px;
   max-width: 400px;
   text-align: center;
@@ -37,7 +36,7 @@ em {
 }
 
 .images {
-  max-width: 89%;
+  max-width: 80%;
   max-height: auto;
   margin: auto;
   border-radius: 10px;
