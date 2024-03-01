@@ -34,16 +34,16 @@ export default function Portfolio() {
     <div id="portfolio" className="mywork">
       <h1>Collaborative Projects</h1>
       <Carousel className="collaborative-projects" responsive={responsive}>
-        <div className="project">
+        {/* <div className="project">
           <h2>Eco Friendly E-Commerce Store</h2>
           <img className="images" src={ecostore} alt="Eco Store" />
           <div className="project-links">
             <a href="https://github.com/NigelDcruz/ecostorereact">
               Github Repo
             </a>
-            {/* <a href="https://allicris.github.io/digital-newspaper/">
+            <a href="https://allicris.github.io/digital-newspaper/">
               Website link
-            </a> */}
+            </a>
           </div>
           <div className="description">
             <p>
@@ -54,7 +54,7 @@ export default function Portfolio() {
               <em>Technologies Used:</em> MERN Stack, JWT, Tailwind CSS.
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="project">
           <h2>M.A.A. Nail Haven</h2>
           <img
@@ -136,7 +136,7 @@ export default function Portfolio() {
       <div className="mywork">
         <h1>Solo Projects</h1>
         <Carousel className="solo-projects" responsive={responsive}>
-          <div className="project">
+          {/* <div className="project">
             <h2>Financial Logger</h2>
             <img
               className="images"
@@ -147,9 +147,9 @@ export default function Portfolio() {
               <a href="https://github.com/Allicris/financial-logger">
                 Github Repo
               </a>
-              {/* <a href="https://allicris.github.io/programmer-quiz/">
+              <a href="https://allicris.github.io/programmer-quiz/">
               Website link
-            </a> */}
+            </a>
             </div>
             <div className="description">
               <p>
@@ -161,8 +161,25 @@ export default function Portfolio() {
                 Tailwind CSS.
               </p>
             </div>
+          </div> */}
+           <div className="project">
+            <h2>Priscilla's Nails</h2>
+            <img className="images" src={priscilla} alt="Priscilla's Nails" />
+            <div className="project-links">
+              <a href="https://github.com/Allicris/pricillasnails">
+                Github Repo
+              </a>
+              <a href="https://priscillasxnails.netlify.app">Website Link</a>
+            </div>
+            <div className="description">
+              <p>
+                A simple landing page I made for my sister's nail business.{" "}
+              </p>
+              <p>
+                <em>Technologies Used:</em> React, CSS, JavaScript.
+              </p>
+            </div>
           </div>
-
           <div className="project">
             <h2>Sky Canva Weather App</h2>
             <img
@@ -215,25 +232,6 @@ export default function Portfolio() {
               </p>
               <p>
                 <em>Technologies Used:</em> HTML, CSS, JavaScript.
-              </p>
-            </div>
-          </div>
-
-          <div className="project">
-            <h2>Priscilla's Nails</h2>
-            <img className="images" src={priscilla} alt="Priscilla's Nails" />
-            <div className="project-links">
-              <a href="https://github.com/Allicris/pricillasnails">
-                Github Repo
-              </a>
-              <a href="https://priscillasxnails.netlify.app">Website Link</a>
-            </div>
-            <div className="description">
-              <p>
-                A simple landing page I made for my sister's nail business.{" "}
-              </p>
-              <p>
-                <em>Technologies Used:</em> React, CSS, JavaScript.
               </p>
             </div>
           </div>
