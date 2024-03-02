@@ -1,48 +1,110 @@
-.nav-bar {
+header {
   font-family: "Noto Serif JP", serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 20px;
 }
 
-.nav-text ul {
-  list-style: none;
+header nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
 }
 
-.nav-text a {
-  margin-right: 5px;
-  padding: 9px;
+header .nav-btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+header .nav-close-btn.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-text {
+  list-style: none;
+  margin-right: 0.65em;
+  padding: 0.4em;
   color: #fdffab;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1em;
   transition-duration: 375ms;
-  border: 1.5px solid #eee;
-  border-radius: 15px;
+  border: 0.1em solid #eee;
+  border-radius: 1em;
 }
 
-.nav-text a:hover {
+.nav-text:hover {
   color: #eee;
-  border:1.5px solid #cccd88;
+  border: 0.12em solid #cccd88;
 }
 
-.icons ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin-left: 420px;
-}
-
-.icons ul li img {
-  max-width: 28px;
-  padding: 10px;
+.icons img {
+  max-width: 1.8em;
+  padding: 0.5em;
   transition: transform 0.5s;
 }
 
-.icons ul li img:hover {
+.icons img:hover {
   -ms-transform: scale(1.5, 1.5);
   -webkit-transform: scale(1.5, 1.5);
   transform: scale(1.5, 1.5);
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-text {
+    border: none;
+    transition: transform 0.5s;
+    color: black;
+  }
+
+  .nav-text:hover {
+    color: rgb(247, 243, 243);
+    border: none;
+    -ms-transform: scale(1.5, 1.5);
+    -webkit-transform: scale(1.5, 1.5);
+    transform: scale(1.5, 1.5);
+  }
+
+  header nav {
+    z-index: 1200;
+    font-size: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    transition: 1s;
+    transform: translateY(-100vh);
+    background-color: rgb(251, 152, 130);
+  }
+
+  header nav .nav-text .icons {
+    transition: transform 0.5s;
+  }
+
+  header .nav-btn {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  header .responsive_nav {
+    transform: none;
+  }
+
+  header .nav-close-btn {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 2em;
+    right: 2rem;
+  }
 }

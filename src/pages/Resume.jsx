@@ -5,11 +5,11 @@ import selfPortrait from "../../public/images/portfolio-pic.png";
 export default function Resume() {
   return (
     <div id="resume" className="resume">
-      <div className="portrait">
-        <img src={selfPortrait}></img>
-      </div>
       <div className="resume-description">
         <h3>EXPERIENCE</h3>
+        <div className="portrait">
+        <img src={selfPortrait}></img>
+      </div>
         <p>
         My previous experience has led me to where I am today in my coding journey. I've
         been able to apply my organizational and problem solving skills into my

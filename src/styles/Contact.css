@@ -1,46 +1,46 @@
 .contact {
-  margin: 20px;
-  margin-bottom: 60px;
+  margin: 2em;
+  margin-bottom: 3em;
   display: flex;
-  padding: 50px;
+  padding: 4em;
   align-items: center;
   justify-content: space-between;
   font-family: "Noto Serif JP", serif;
   background-color: rgba(255, 255, 255, 0.327);
-  box-shadow: 2px 2px 4px rgb(176, 175, 175);
-  border-radius: 15px;
+  box-shadow: 4px 4px 8px rgb(243, 223, 223);
+  border-radius: 1.5em;
 }
 
 .form {
   display: grid;
-  row-gap: 10px;
-  min-width: 18%;
-  margin-right: 25px;
-  padding-right: 20px;
+  row-gap: .25em;
+  min-width: .5em;
+  margin-right: 1em;
+  padding-right: 2em;
   color: rgb(173, 82, 82);
 }
 
 .form input {
-  border-radius: 5px;
-  padding: 8px;
-  font-weight: 700;
+  border-radius: .5em;
+  padding: .35em;
   font-family: "Noto Serif JP", serif;
 }
 
-.form input:hover {
+.form input :hover {
   border-color: white;
 }
 
 .form textarea {
-  border-radius: 5px;
-  min-height: 120px;
+  border-radius: .5em;
+  min-height: 10em;
+  font-family: "Noto Serif JP", serif;
 }
 
 .send {
-  border-radius: 20px;
+  border-radius: 1.5em;
   background: transparent;
   border: 2px solid rgba(43, 125, 39, 0.72);
-  border-radius: 5px;
+  border-radius: 1.5em;
   color: rgba(43, 125, 39, 0.72);
   transition-duration: 375ms;
 }
@@ -53,8 +53,8 @@ background-color: rgba(128, 128, 128, 0.528);
 }
 
 .contact-text {
-  margin-left: 20px;
-  margin-right: 100px;
+  margin-left: 1.5em;
+  margin-right: 2.5em;
 }
 
 .contact-text h2 {
@@ -62,14 +62,21 @@ background-color: rgba(128, 128, 128, 0.528);
   font-family: 'DM Serif Display', 'serif';
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1240px) {
   .contact {
     display: block;
     text-align: left;
   }
 
   .contact-text {
-    margin-left: auto;
-    padding-bottom: 10%;
+    text-align: center;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 1em;
+  }
+
+  .form {
+    margin-left: 1em;
+    margin-right: .05em;
   }
 }

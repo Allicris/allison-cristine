@@ -1,32 +1,33 @@
 .mywork h1 {
   font-family: 'DM Serif Display', 'serif';
-  font-size: 45px;
+  font-size: 3.5em;
   color: rgb(255, 255, 255);
-  margin-top: 7%;
+  margin-top: 2.5em;
   text-align: center;
   text-shadow: 2px 2px 2px rgb(118, 117, 117);
 }
 
 .collaborative-projects, .solo-projects {
-  display: flex;
-  margin-left: 65px;
+ padding-left: 4em;
+ padding-right: 4em;
 } 
 
 .project {
   font-family: "Noto Serif JP", serif;
-  padding: 10px;
-  max-width: 400px;
+  margin: 2em;
+  padding: .75em;
+  max-width: 25em;
   text-align: center;
   color: white;
   background-color: #efdbba;
-  border-radius: 20px;
-  box-shadow: 2px 2px 4px #efd9c3;
+  border-radius: 1.5em;
+  box-shadow: 2px 5px 10px #ead8d5;
 }
 
 .project h2 {
   font-family: 'DM Serif Display', 'serif';
   color: rgb(255, 255, 254);
-  font-size: 25px;
+  font-size: 1.85em;
   text-shadow: 1px 1px 1px rgb(154, 127, 79);
 }
 
@@ -35,10 +36,10 @@ em {
 }
 
 .images {
-  max-width: 80%;
+  max-width: 22em;
   max-height: auto;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 1.25em;
 }
 
 .project-links {
@@ -46,7 +47,7 @@ em {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin-top: 10px;
+  margin-top: 1em;
 }
 
 .project-links a {
@@ -60,12 +61,22 @@ em {
 }
 
 .description {
-  padding-top: 15px;
-  padding-left: 30px;
+  padding-top: 1em;
+  padding-left: 2em;
   text-align: left;
   color: rgb(128, 8, 34);
 }
 
 em {
   color: #587747;
+}
+
+@media only screen and (max-width: 1024px) {
+.mywork h1 {
+  font-size: 2em;
+}
+
+.collaborative-projects, .solo-projects {
+  padding: .75em;
+}
 }
