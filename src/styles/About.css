@@ -60,7 +60,13 @@
 }
 
 .paragraph-two p a:hover {
- cursor: pointer;
- border: 2px solid white;
- background-color: rgba(128, 128, 128, 0.528);
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.528);
+}
+
+@media only screen and (max-width: 1024px) {
+  .about-me {
+    padding: 4.75em;
+  }
 }

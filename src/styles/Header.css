@@ -1,5 +1,5 @@
-.header { 
-  font-family: 'DM Serif Display', 'serif';
+.header {
+  font-family: "DM Serif Display", "serif";
   margin-top: -90px;
   padding-left: 50px;
   color: rgb(105, 105, 105);
@@ -22,4 +22,11 @@
 
 .tab.active {
   transform: translateX(0);
+}
+
+@media only screen and (max-width: 1024px) {
+  .tab {
+    font-size: 1.25em;
+    padding-left: 0em;
+  }
 }

@@ -1,46 +1,50 @@
 .resume {
-  margin: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 100px;
-  padding-top: 50px;
+  margin: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 5em;
+  padding-top: 2em;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   text-align: center;
 }
 
-.portrait {
-  padding-left: 50px;
-  padding-right: 50px;
-}
+/* .portrait {
+  padding-left: 5em;
+  padding-right: 5em;
+} */
 
 .portrait img {
-  max-width: 250px;
   height: 35vh;
-  border-radius: 10px;
-  margin-top: 22px;
+  border-radius: 50em;
+  margin-top: .5em;
+  box-shadow: 2px 2px 10px white;
 }
 
 .resume-description {
   display: block;
-  font-size: 18px;
+  font-size: 1.10em;
   color: rgb(137, 52, 52);
   font-family: "Noto Serif JP", serif;
 }
 
 .resume-description h3 {
-  font-family: 'DM Serif Display', 'serif';
+  font-family: "DM Serif Display", "serif";
   color: #fdffab;
-font-size: 30px;
-text-shadow: 1px 1px 1px rgb(154, 127, 79);
+  font-size: 2.5em;
+  text-shadow: 1px 1px 3px rgb(154, 127, 79);
+}
+
+.resume-description p {
+  padding: 2.5em;
 }
 
 button {
   font-family: "DM Serif Display", "serif";
-  font-size: 14px;
-  border-radius: 15px;
-  padding: 15px;
+  font-size: .95em;
+  border-radius: 1.25em;
+  padding: 1em;
   background-color: transparent;
   color: #eee;
   border: 1.5px solid #ffffff;
@@ -58,6 +62,16 @@ button:hover {
   border-color: rgb(103, 102, 102);
 }
 
-button a:hover{
+button a:hover {
   color: rgb(93, 93, 93);
+}
+
+@media only screen and (max-width: 1024px) {
+  .resume {
+    display: block;
+  }
+
+  .resume-description p {
+    padding: 1em;
+  }
 }
