@@ -38,6 +38,7 @@ em {
 .images {
   max-width: 22em;
   max-height: auto;
+  /* height: 45vh; */
   margin: auto;
   border-radius: 1.25em;
 }
@@ -78,5 +79,9 @@ em {
 
 .collaborative-projects, .solo-projects {
   padding: .75em;
+}
+
+.images {
+  max-width: 18em;
 }
 }

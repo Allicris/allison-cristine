@@ -13,16 +13,16 @@
 
 .form {
   display: grid;
-  row-gap: .25em;
-  min-width: .5em;
+  row-gap: 0.25em;
+  min-width: 0.5em;
   margin-right: 1em;
   padding-right: 2em;
   color: rgb(173, 82, 82);
 }
 
 .form input {
-  border-radius: .5em;
-  padding: .35em;
+  border-radius: 0.5em;
+  padding: 0.35em;
   font-family: "Noto Serif JP", serif;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .form textarea {
-  border-radius: .5em;
+  border-radius: 0.5em;
   min-height: 10em;
   font-family: "Noto Serif JP", serif;
 }
@@ -46,10 +46,10 @@
 }
 
 .send:hover {
-cursor: pointer;
-color: white;
-border: 2px solid white;
-background-color: rgba(128, 128, 128, 0.528);
+  cursor: pointer;
+  color: white;
+  border: 2px solid white;
+  background-color: rgba(128, 128, 128, 0.528);
 }
 
 .contact-text {
@@ -59,7 +59,7 @@ background-color: rgba(128, 128, 128, 0.528);
 
 .contact-text h2 {
   color: rgb(173, 82, 82);
-  font-family: 'DM Serif Display', 'serif';
+  font-family: "DM Serif Display", "serif";
 }
 
 @media only screen and (max-width: 1240px) {
@@ -76,7 +76,6 @@ background-color: rgba(128, 128, 128, 0.528);
   }
 
   .form {
-    margin-left: 1em;
-    margin-right: .05em;
+    margin: auto;
   }
 }

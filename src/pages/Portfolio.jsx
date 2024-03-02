@@ -1,11 +1,11 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../styles/Portfolio.css";
-import ecostore from "../../public/images/eco-store.png";
+// import ecostore from "../../public/images/eco-store.png";
 import nailbookings from "../../public/images/maa-nail-haven.png";
 import adopt from "../../public/images/adopt-a-pet.png";
 import newspaper from "../../public/images/digital-newspaper.png";
-import finance from "../../public/images/financial-logger.png";
+// import finance from "../../public/images/financial-logger.png";
 import weather from "../../public/images/weather-app.png";
 import quiz from "../../public/images/js-quiz.png";
 import priscilla from "../../public/images/priscillas-nails.png";
